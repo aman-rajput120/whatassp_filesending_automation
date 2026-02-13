@@ -1,22 +1,33 @@
-  📱 WhatsApp Web Automation with Selenium (Python)
-  
+📱 WhatsApp Web Automation with Selenium (Python)
+
 This project automates WhatsApp Web using Python and Selenium to send a text message and an image/file to multiple phone numbers stored in a CSV file.
 
 ⚠️ Disclaimer: This project is for educational purposes only. Automating WhatsApp may violate WhatsApp’s Terms of Service. Use responsibly.
 
 ✨ Features
+
 📄 Read phone numbers from a CSV file
+
 💬 Send an automated text message
+
 📎 Attach and send an image or any file
+
 🖱 Click the Send button programmatically
+
 🔁 Loop through multiple contacts automatically
+
 ⏳ Smart waits for stable execution
 
 🛠 Tech Stack
+
 Python 3.8+
+
 Selenium
+
 webdriver-manager
+
 Pandas
+
 Google Chrome
 
 📂 Project Structure
@@ -64,14 +75,18 @@ Make sure Google Chrome is installed and updated.
 python send_whatsapp_file.py
 
 First Run Instructions:
+
 Chrome will open WhatsApp Web
+
 Scan the QR code using your phone
+
 Script starts automatically after login
 
 🔄 How the Script Works
 Step 1: Open WhatsApp Web
 
 Launches Chrome browser
+
 Waits for QR code login
 
 Step 2: Open New Chat
@@ -125,21 +140,31 @@ XPath not found	WhatsApp UI may have changed
 QR appears repeatedly	Clear browser cache
 Message not delivered	Check phone number format
 ⚠ Limitations
+
 Relies on WhatsApp Web UI (XPaths may break)
+
 Manual QR code scanning required
+
 Not designed for high-volume spam messaging
 
 🚀 Future Improvements
 
 ✅ Retry failed numbers
+
 📊 Excel file support
+
 🖼 Add captions to images
+
 📁 Multiple file support
+
 📈 Message status logging
+
 ⚖ Legal Notice
 
 This project is intended only for learning and testing.
+The author is not responsible for misuse or WhatsApp account restrictions.
 
 👨‍💻 Author
+
 Aman Rajput
 Python Automation Developer
