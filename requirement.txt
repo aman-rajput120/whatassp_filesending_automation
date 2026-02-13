@@ -1,0 +1,14 @@
+Fristly install Selenium by
+pip install Selenium
+Set-up Virtual Environment  by 
+python -m venv venv
+Install webdriver for Selenium
+pip install selenium webdriver-manager
+Install selenium padas
+pip install selenium pandas 
+
+
+After Installing all required tools then run this code 
+1. It will open Whatsapp Web Qr 
+2. Login on Whatsapp by Scanning Whatsapp Qr 
+3. After Login System will work automatically
