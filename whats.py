@@ -10,9 +10,9 @@ import time
 
 
 # ---------------- SETTINGS ----------------
-FILE_PATH = "numbers.csv"
-MESSAGE = "hyy"
-FILE_TO_SEND = r"C:\Users\91740\OneDrive\Pictures\swachhbharat.png"
+FILE_PATH = "Make Your Phone Numbers CSV File"
+MESSAGE = "Type Message To Send "
+FILE_TO_SEND = r"Give File Path To Send File "
 
 # ---------------- READ CSV ----------------
 df = pd.read_csv(FILE_PATH)
@@ -76,17 +76,7 @@ def send_message_and_video(phone):
         )))
         file_input.send_keys(FILE_TO_SEND)
 
-        # -------- PRESS ENTER (AS REQUESTED) --------
-        # time.sleep(1)
-        # file_input.send_keys(Keys.ENTER)
-
-        # -------- WAIT FOR MEDIA SEND BUTTON --------
-        # send_media_btn = wait.until(EC.element_to_be_clickable((
-        #     By.XPATH,
-        #     "/html/body/div[1]/div/div/div/div/div[3]/div/div[5]/div/footer/div[1]/div/span/div/div/div/div[4]/div/span/button"
-        # )))
-        # time.sleep(2)
-        # send_media_btn.click()
+        
 
         send_btn = wait.until(EC.element_to_be_clickable((
             By.XPATH,
