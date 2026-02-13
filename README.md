@@ -1,6 +1,7 @@
   📱 WhatsApp Web Automation with Selenium (Python)
   
 This project automates WhatsApp Web using Python and Selenium to send a text message and an image/file to multiple phone numbers stored in a CSV file.
+
 ⚠️ Disclaimer: This project is for educational purposes only. Automating WhatsApp may violate WhatsApp’s Terms of Service. Use responsibly.
 
 ✨ Features
