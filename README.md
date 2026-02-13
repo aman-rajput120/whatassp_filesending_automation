@@ -162,7 +162,6 @@ Not designed for high-volume spam messaging
 ⚖ Legal Notice
 
 This project is intended only for learning and testing.
-The author is not responsible for misuse or WhatsApp account restrictions.
 
 👨‍💻 Author
 
